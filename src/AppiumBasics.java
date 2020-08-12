@@ -15,7 +15,7 @@ public class AppiumBasics extends Base {
 	driver.findElementById("android:id/checkbox").click();
 	driver.findElementByXPath("(//android.widget.RelativeLayout)[2]").click();
 	driver.findElementByClassName("android.widget.EditText").sendKeys("hello");
-	driver.findElementById("android:id/Button2").click();
+	driver.findElementById("android:id/Button1").click();
 	}
 	
 
